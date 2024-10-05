@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    text-align: center;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(132, 167, 197);
+}   
+
+h1{
+    font-size: 25px;
+}
+
+h2{
+    font-size: 15px;
+}
+
+#perfil{
+    width: 150px;
+    height: 150px;
+    margin-top:40px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+#icono{
+    width:30px;
+    height: 30px;
+
+}
+
+.boton{
+    background-color: lime;
+    height: 50px;
+    width: 25vw;
+    margin: 0 auto 10px;
+    border-radius: 25px;
+    position:relative;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.boton:hover {
+    transform: translateY(-2px) scale(1.04);
+}
