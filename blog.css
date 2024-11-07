@@ -1,0 +1,165 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* HEADER Y NAV */
+.header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: white;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+nav a {
+    font-size: 13px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.459);
+    text-decoration: none;
+}
+
+/* PORTADA */
+.portada {
+    position: relative;
+    height: 100vh;
+    max-height: 700px;
+}
+#portada {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titulo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#h1portada {
+    font-size: 100px;
+    color: white;
+    font-weight: lighter;
+}
+
+/* BIENVENIDOS */
+.encabezado {
+    padding: 100px 20px 50px;
+    text-align: center;
+}
+
+#h1titulo {
+    font-size: 50px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+#h2subtitulo {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #989898;
+}
+
+/* BLOGS */
+.blogs {
+    display: flex;
+    justify-content: center;
+    padding-left:40px;
+    padding-right:40px;
+}
+.blog-item {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 0 15px;
+}
+/* PUBLICACIONES DEL BLOG */
+.articulo {
+    height: 350px;
+    width: 350px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    transition: transform 0.3s ease;
+}
+
+.articulo:hover {
+    transform: translateY(-5px);
+}
+
+.img-articulo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+/* TEXTO DE ARTICULOS */
+.blogs2{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding-left:40px;
+    padding-right:40px;
+    
+}
+
+.txt-articulo {
+    margin-top:20px;
+    margin-bottom:20px;
+    width:350px;
+}
+
+.h1articulo {
+    font-size: 23px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.623);
+    margin: 0;
+}
+
+.h2subtitulo {
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.459);
+    margin: 10px 0;
+}
+
+.textoarticulo {
+    font-size: 12px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.459);
+    line-height: 2;
+    margin-top: 20px;
+}
+
+
+/* MEDIA */
+
+
+@media (max-width: 1200px) {
+    .blogs{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 610px) {
+    #h1portada{
+        font-size:50px;
+    }
+
+}
