@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <!-- 1.  Etiqueta <iframe>
+        Uso: Incrusta otra página web dentro de la página actual. INCLUSO PAGINAS PROPIAS
+        
+        Atributos importantes:
+        src: Especifica la URL de la página que se va a incrustar.
+        width y height: Definen el ancho y alto del iframe.
+        frameborder: Controla si se muestra o no el borde del iframe (valores: 0 o 1).
+        allowfullscreen: Permite que el iframe se muestre en pantalla completa.
+        loading: Controla cuándo se carga el iframe (lazy para carga diferida). -->
+        
+        <iframe src="https://www.promiedos.com.ar" width="600" height="400" frameborder="0" allowfullscreen></iframe>
+        
+        
+    <!-- 2.  Etiqueta <video>
+        Uso: Reproduce archivos de video directamente en la página web.
+
+        Atributos importantes:
+        src: Especifica la URL del video.
+        controls: Muestra los controles predeterminados de reproducción (play, pause, volumen, etc.).
+        autoplay: Hace que el video se reproduzca automáticamente al cargarse la página. No funciona de entrada, salvo que tenga el MUTE activado
+        loop: Hace que el video se reproduzca en bucle.
+        muted: Inicia el video en modo silencioso.
+        poster: Define una imagen que se muestra antes de que comience el video. 
+        width y height son para tamaños
+        -->
+        <video src="video.mp4" controls width="600" height="400" poster="poster.jpg" autoplay  loop></video>
+       
+       
+    <!-- 3.  Etiqueta <audio>
+        Uso: Reproduce archivos de audio directamente en la página web.
+        
+        Atributos importantes:
+        src: Especifica la URL del archivo de audio.
+        controls: Muestra los controles de reproducción del audio.
+        autoplay: Reproduce el audio automáticamente cuando se carga la página. CON AUDIO NO FUNCIONA!! bloqueado por el navegador
+        loop: Hace que el audio se reproduzca en bucle.
+        muted: Inicia el audio en silencio. -->
+        
+        <audio src="audio.mp3" controls autoplay loop></audio>
+
+    
+
+</body>
+</html>
