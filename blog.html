@@ -1,0 +1,185 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog</title>
+        <link rel="stylesheet" href="blog.css">
+    </head>
+    <body>
+        <div class="portada">
+            <img id="portada" src="imagenes/barilocheportada.jpg">
+            <div class="titulo">
+                <h1 id="h1portada">BARILOCHE</h1>
+            </div>
+            <div class="logo">
+                <img id="logo" src="imagenes/iconoportada3.png">
+            </div>
+        </div>
+
+
+        <div class="header">
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="index.html">LINKTREE</a></li>
+                    <li><a href="#blogs">BLOGS</a></li>
+                    <li><a href="#contacto">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="encabezado">
+            <div class="titulo1">
+                <h1 id="h1titulo">Bienvenidos</h1>
+            </div>
+
+            <div class="subtitulo1">
+                <h2 id="h2subtitulo">Les presento mis puntos turísticos favoritos de Bariloche</h2>
+            </div>
+        </div>
+
+        <div class="blogs" id="blogs">
+            <div class="blog-item">
+                <div class="articulo">
+                    <a href="1_cerro-catedral.html"><img class="img-articulo" src="imagenes/cerro-catedral.jpg"></a>
+                </div>
+                <div class="txt-articulo">
+                    <div class="tituloarticulos"><h1 class="h1articulo">Cerro Catedral</h1></div>
+                    <div class="fechaarticulo"><h2 class="h2subtitulo">Marzo 24, 2015</h2></div>
+                    <div class="textoarticulo"><p>Con 1.200 hectáreas esquiables, Cerro Catedral se posiciona como el centro de esquí más grande del hemisferio sur, ofreciendo una infraestructura de primer nivel para los amantes de los deportes invernales. </p>
+                </div>
+                </div>
+            </div>
+        
+            <div class="blog-item">
+                <div class="articulo">
+                    <a href="5_nahuel-huapi.html"><img class="img-articulo" src="imagenes/nahuelhuapi.jpg"></a>
+
+                </div>
+                <div class="txt-articulo">
+                    <div class="tituloarticulos"><h1 class="h1articulo">Lago Nahuel Huapi</h1></div>
+                    <div class="fechaarticulo"><h2 class="h2subtitulo">Septiembre 20, 2019</h2></div>
+                    <div class="textoarticulo"><p>Este imponente lago de origen glaciar, cuyas aguas de intenso azul cristalino cautivan a todo aquel que lo visita, es conocido por su gran profundidad y por sus siete ramificaciones o brazos: Campanario, de la Tristeza, Blest, Machete, del Rincón...</p></div>
+                </div>
+            </div>
+        
+            <div class="blog-item">
+                <div class="articulo">
+                    <a href="3_colonia-suiza.html"><img class="img-articulo" src="imagenes/colonia-suiza.jpg"></a>
+                </div>
+                <div class="txt-articulo">
+                    <div class="tituloarticulos"><h1 class="h1articulo">Colonia Suiza</h1></div>
+                    <div class="fechaarticulo"><h2 class="h2subtitulo">Julio 7, 2017</h2></div>
+                    <div class="textoarticulo"><p>Colonia Suiza, el primer asentamiento europeo en la región, es un pintoresco destino que conserva intactas las huellas de su fundación a fines del siglo XIX. Este encantador pueblo, declarado patrimonio histórico, se encuentra...</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="blogs">
+            <div class="blog-item">
+                <div class="articulo">
+                    <a href="2_parque-de-arrayanes.html"><img class="img-articulo" src="imagenes/isla-victoria.jpg"></a>
+                </div>
+                <div class="txt-articulo">
+                    <div class="tituloarticulos"><h1 class="h1articulo">Bosque de Arrayanes</h1></div>
+                    <div class="fechaarticulo"><h2 class="h2subtitulo">Marzo 24, 2023</h2></div>
+                    <div class="textoarticulo"><p>Partiendo desde Puerto Pañuelo, en la majestuosa península de Llao Llao, y tras una hora de navegación, se llega a la península de Quetrihue, situada en el noreste del Lago Nahuel Huapi, donde se encuentra el famoso bosque de arrayanes. Este singular… 
+                    </p></div>
+                </div>
+            </div>
+            <div class="blog-item">
+                <div class="articulo">
+                    <a href="4_hotel-llao-llao.html"><img class="img-articulo" src="imagenes/hotel.jpg"></a>
+
+                </div>
+                <div class="txt-articulo">
+                    <div class="tituloarticulos"><h1 class="h1articulo">Hotel Llao Llao</h1></div>
+                    <div class="fechaarticulo"><h2 class="h2subtitulo">Abril 13, 2020</h2></div>
+                    <div class="textoarticulo"><p>Ubicado entre los majestuosos picos de los cerros López y Tronador, y rodeado por los hermosos lagos Moreno y Nahuel Huapi, Llao Llao es un destino de lujo que se extiende sobre un gran parque de 15 hectáreas. Este exclusivo resort integra una completa… </p></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="videoyform" id="contacto">
+            <div class="video">
+                <iframe id="videoyt" src="https://www.youtube.com/embed/R70Hv0Ae-nc?si=ZIV03hnmHW69Th5W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+            </div>
+            <div class="form">
+                <form action="#" method="POST" class="contact-form">
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+            
+                    <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido" required>
+            
+                    <input type="email" id="email" name="email" placeholder="Ingresa tu email" required>
+            
+                    <textarea id="aclaracion" name="aclaracion" placeholder="Aclaraciones adicionales" rows="4"></textarea>
+            
+                    <button type="submit">Enviar</button>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-column">
+                <h3>Tags</h3>
+                <div class="tags-container">
+                    <span class="tag">sur</span>
+                    <span class="tag">vacaciones</span>
+                    <span class="tag">bariloche</span>
+                    <span class="tag">islavictoria</span>
+                    <span class="tag">cerrotronador</span>
+                    <span class="tag">puertoblest</span>
+                    <span class="tag">coloniasuiza</span>
+                    <span class="tag">circuitochico</span>
+                    <span class="tag">nahuelhuapi</span>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Archives</h3>
+            <div class="fecha">
+                <img src="imagenes/marker.png">
+                <p>Agosto 2024</p>
+            </div>
+            <div class="fecha">
+                <img src="imagenes/marker.png">
+                <p>Septiembre 2024</p>
+            </div>
+            <div class="fecha">
+                <img src="imagenes/marker.png">
+                <p>Noviembre 2024</p>
+            </div>
+            <div class="fecha">
+                <img src="imagenes/marker.png">
+                <p>Diciembre 2024</p>
+            </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Activity</h3>
+                <div class="editor">
+                    <img src="imagenes/perfil.JPEG">
+                    <p>Bevitore Sebastian</p>
+                    <p2>en</p2>
+                    <p>primer blog</p>
+                </div>
+                <div class="editor">
+                    <img src="imagenes/perfil.JPEG">
+                    <p>Bevitore Sebastian</p>
+                    <p2>en</p2>
+                    <p>segundo blog</p>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+
+        
+
+
+    </body>
+    </html>
+
